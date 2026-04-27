@@ -3,7 +3,7 @@ $conn = new mysqli("db", "root", "root", "tienda");
 $result = $conn->query("SELECT * FROM videojuegos");
 ?>
 
-<h1>🎮 Videojuegos</h1>
+<h1> Videojuegos</h1>
 
 <form action="guardar.php" method="POST">
     Nombre: <input name="nombre"><br>
